@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+/* CONTAINER */
+.container{
+    margin: auto;
+    
+    width: 65%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.container > div {
+    width: 80%;
+    height: 100%;
+
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+    margin-top: 80px;
+}
+
+header h2 {
+    color: #00DC00;
+
+    font-size: 25px;    
+}
+
+/* NAV */
+nav {
+    display: block;
+    background-color: #00DD00;
+    text-align: center;
+
+    height: 40px;
+    border-radius: 4px;
+}
+
+nav button {
+    margin-top: 10px;
+    height: 20px;
+    font-size: 12px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/* SCOOTER LIST */
+
+main section {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+section > input {
+    display: inline-block;
+    cursor: pointer;
+}
+
+section:last-of-type {
+    padding-bottom: 20px;
+}
+
+section div > h4 {
+    font-weight: 600;
+    font-size: 20px;
+
+    display: inline;
+}
+
+span i {
+    margin-right: 5px;
+}
+
+section > span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* BATTERY LEVEL */
+.battery-low{
+    background-color: #BE4141;
+
+    width: 80px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.battery-mid{
+    background-color: #F5B453;
+
+    width: 250px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.battery-high{
+    background-color: #adc31e;
+
+    width: 500px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.battery-full{
+    background-color: #1EC31E;
+
+    width: 750px;
+    height: 25px;
+    border-radius: 4px;
+}
+
